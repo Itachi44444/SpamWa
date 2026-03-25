@@ -21,5 +21,4 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py')
-        description: " spambot send 1000000000 spam"
-permissions: read-all 
+
